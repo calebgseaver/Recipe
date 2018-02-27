@@ -1,5 +1,77 @@
-body{
+body {
+  background-color: #ffffe0;
   width: 90%;
   max-width: 48em;
   margin: 5% auto;
+}
+
+img {
+width: auto;
+max-width: 100%
+}
+
+/*-----links----*/
+/*interactive pseudoclasses*/
+a {
+  color: #000;
+}
+
+a:hover,
+a:focus {
+  color: #ccc;
+}
+
+.back-to-top a {
+  color: #000
+}
+/*-----Nav-----*/
+
+nav {
+  padding-top: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 0;
+  padding-left: 0;
+  margin: 0
+}
+
+nav li {
+display: block;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em;
+  border: 1px solid #000;
+  border-radius: .5em
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #100
+}
+
+@media (min-width: 60em){
+
+  nav li {
+  display: inline;
+  }
+
+main {
+border: 1px, dashed #ccc;
+overflow: hidden;
+
+}
+
+#ingredients,
+#directions{
+  float: left;
+  width: 50%;
+}
+
+.back-to-top {
+  clear: both;
 }
