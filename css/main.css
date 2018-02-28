@@ -7,7 +7,10 @@ body {
 
 img {
 width: auto;
-max-width: 100%
+max-width: 100%;
+margin: 2% auto;
+border: 1px solid #000;
+border-radius: .5em
 }
 
 /*-----links----*/
@@ -60,15 +63,16 @@ nav a:focus {
   display: inline;
   }
 
-main {
-border: 1px, dashed #ccc;
+/*main {
+border: 1px dashed #ccc;
 overflow: hidden;
 
 }
+*/
 
-#ingredients,
-#directions{
-  float: left;
+#directions {
+  float: right;
+  height: auto;
   width: 50%;
 }
 
